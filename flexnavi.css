@@ -1,0 +1,32 @@
+body, html
+{
+	height:100%; margin:0;
+}
+
+#conteneur1
+{
+    display:flex;
+	color:white;
+    flex-wrap:wrap;
+	flex-direction:row;
+    height: 100%;
+    width:100%; 
+}
+#conteneur2
+{
+	display:flex;
+	color:white;
+	flex-wrap:wrap;
+}
+.element1
+{
+	background-color:black;
+	width:50%
+	height:20%
+}
+.element2
+{
+	background-color:grey;
+	width:50%
+	height:20%
+}
